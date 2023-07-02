@@ -1,1 +1,62 @@
-pipipipopopo faz logo esse trabalho
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Empreendedorismo Feminino</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Empreendedorismo Feminino</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Histórias de Sucesso</a></li>
+        <li><a href="#">Recursos</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="banner">
+    <h2>Empreendedorismo Feminino: Transformando Ideias em Negócios de Sucesso</h2>
+    <p>Conheça mulheres inspiradoras que estão conquistando o mundo dos negócios.</p>
+    <a href="#" class="cta-button">Saiba Mais</a>
+  </section>
+
+  <section id="about">
+    <h2>Sobre Nós</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis, urna in varius faucibus, lorem lectus tempor neque, at aliquet ligula massa ut felis.</p>
+  </section>
+
+  <section id="success-stories">
+    <h2>Histórias de Sucesso</h2>
+    <div class="story">
+      <img src="imagem1.jpg" alt="História de Sucesso 1">
+      <h3>Nome da Empreendedora</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis, urna in varius faucibus, lorem lectus tempor neque, at aliquet ligula massa ut felis.</p>
+    </div>
+    <div class="story">
+      <img src="imagem2.jpg" alt="História de Sucesso 2">
+      <h3>Nome da Empreendedora</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc facilisis, urna in varius faucibus, lorem lectus tempor neque, at aliquet ligula massa ut felis.</p>
+    </div>
+  </section>
+
+  <section id="resources">
+    <h2>Recursos</h2>
+    <ul>
+      <li>Artigos e Livros</li>
+      <li>Eventos e Conferências</li>
+      <li>Redes e Comunidades</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco para obter mais informações.</p>
+    
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Empreendedorismo Feminino. Todos os direitos reservados
