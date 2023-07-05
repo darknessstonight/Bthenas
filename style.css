@@ -1,6 +1,6 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     word-wrap: break-word;
@@ -72,14 +72,14 @@ section.module.parallax:after{
     background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
 }
- section.module.parallax-1{
-    background-image: url("https://www.google.com/imgres?imgurl=http%3A%2F%2Fisabellapearce.com.br%2Fwp-content%2Fuploads%2F2020%2F04%2Fsao-luis-1024x683-1.jpg&tbnid=O1Ps3uUAuy2IoM&vet=12ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygPegUIARD2AQ..i&imgrefurl=http%3A%2F%2Fisabellapearce.com.br%2Fsao-luis-sua-historia-demandas-e-potencialidades%2F&docid=fkdZWi1ZlhudXM&w=1024&h=683&q=sao%20luis%204k&ved=2ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygPegUIARD2AQ");
+section.module.parallax-1{
+    background-image: url("https://o.remove.bg/downloads/68d4ea85-d65e-42ee-a081-f14b24a83330/image-removebg-preview.png");
  }
 section.module.parallax-2{
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff9%2F2e%2Fb5%2Ff92eb570c4eae3dd718fee493171044f.jpg&tbnid=DzFhZdRlCnixSM&vet=12ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygIegUIARDlAQ..i&imgrefurl=https%3A%2F%2Fbr.pinterest.com%2Fandreluisfelix%2Fs%25C3%25A3o-lu%25C3%25ADs-ma%2F&docid=uO_HkC7sUQkBmM&w=960&h=637&q=sao%20luis%204k&ved=2ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygIegUIARDlAQ");
+    background-image: url("https://i.pinimg.com/564x/c4/7c/37/c47c3791c41bd01bc101216cb81b5916.jpg");
 }
 section.module.parallax-3{
-    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F09%2F24%2Fa4%2F0924a42562a7a5dd556666dae0e61eed.jpg&tbnid=UIsXEQSIJMxm3M&vet=12ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygUegUIARCDAg..i&imgrefurl=https%3A%2F%2Fbr.pinterest.com%2Fandreluisfelix%2Fs%25C3%25A3o-lu%25C3%25ADs-ma%2F&docid=uO_HkC7sUQkBmM&w=640&h=960&q=sao%20luis%204k&ved=2ahUKEwjZ3Pfeufb_AhWbHrkGHUlUAVsQMygUegUIARCDAg");
+    background-image: url("https://i.pinimg.com/564x/bd/a9/9d/bda99d6caf430ad78700a73d38b0cdcc.jpg");
 }
 section.module.parallax h1{
     color: #fff;
@@ -88,3 +88,20 @@ section.module.parallax h1{
     z-index: 50;
     text-transform: uppercase;
 }
+@media all and (max-width: 820px) {
+    section.module h2 {
+      font-size: 32px;
+    }
+    .module h2, p{
+      padding: 0 8px;
+    }
+  
+    .container{
+      margin:0;
+      padding:0;
+    }
+  
+    section.module.parallax h1 {
+      font-size: 36px;
+    }
+  }
