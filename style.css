@@ -20,6 +20,13 @@ main{
     background-color: aliceblue;
 }
 
+.logo{
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 .container{
     width: 100%;
     max-width: 760px;
@@ -73,7 +80,7 @@ section.module.parallax:after{
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
 }
 section.module.parallax-1{
-    background-image: url("https://o.remove.bg/downloads/68d4ea85-d65e-42ee-a081-f14b24a83330/image-removebg-preview.png");
+    background-image: url("https://i.pinimg.com/564x/c4/7c/37/c47c3791c41bd01bc101216cb81b5916.jpg");
  }
 section.module.parallax-2{
     background-image: url("https://i.pinimg.com/564x/c4/7c/37/c47c3791c41bd01bc101216cb81b5916.jpg");
@@ -105,3 +112,4 @@ section.module.parallax h1{
       font-size: 36px;
     }
   }
+  
