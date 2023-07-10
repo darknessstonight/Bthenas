@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{
 
 main{
     display: block;
-    background-color: aliceblue;
+    background-color: #706868;
 }
 
 .logo{
@@ -80,13 +80,13 @@ section.module.parallax:after{
     background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100%);
 }
 section.module.parallax-1{
-    background-image: url("https://i.pinimg.com/564x/c4/7c/37/c47c3791c41bd01bc101216cb81b5916.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/12/16/02/dune-2137336_1280.jpg");
  }
 section.module.parallax-2{
-    background-image: url("https://i.pinimg.com/564x/c4/7c/37/c47c3791c41bd01bc101216cb81b5916.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/27/23/39/buildings-2547218_640.jpg");
 }
 section.module.parallax-3{
-    background-image: url("https://i.pinimg.com/564x/bd/a9/9d/bda99d6caf430ad78700a73d38b0cdcc.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2019/02/15/15/29/eggerproducoes-3998688_640.jpg");
 }
 section.module.parallax h1{
     color: #fff;
